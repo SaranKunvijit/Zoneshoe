@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e9e7e7;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="file"] {
+    padding: 5px;
+}
+
+.add,  .update {
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #000;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 10px 0;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.add:hover,  .update:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}
+
+.back {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 0;
+    border-radius: 20px;
+    cursor: pointer;
+    background: #ffffff;
+    transition: color 0.3s, background-color 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.back:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+}

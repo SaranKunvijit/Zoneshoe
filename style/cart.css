@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;  
+    align-items: center;
+}
+.fa-regular{
+    cursor: pointer;
+
+}
+.name-cart{
+    margin-top: 50px;
+    margin-left: 350px;
+    font-size: 30px;
+}
+.container-cart{
+    display: flex;
+    justify-content: center;    
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column; /* เรียงสินค้าทั้งหมดจากบนลงล่าง */
+    margin-right: 40px;
+    
+}
+
+.cart-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    border-bottom: 1px solid #ddd;
+
+}
+.cart-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.cart-detail{
+    flex-grow: 1;
+    margin-left: 70px;
+}
+.product-price{
+    margin-left: 80px;
+}
+.p-size {
+    word-spacing: 20px;
+}
+.p-price{
+    word-spacing: 10px;
+    
+}
+
+.cart-detail h3 {
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    overflow: hidden;    /* Hides overflow content that doesn't fit in the container */
+    text-overflow: ellipsis; /* Adds "..." at the end of truncated text */
+    max-width: 100%;     
+}
+.quantity-selector {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #e9e6e6;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.quantity-selector button {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.quantity-selector button:hover {
+    background-color: #ffffff;
+}
+
+.quantity-selector input {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: none;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+}
+.cart-summary{
+   
+    border-left: 1px solid #ddd;
+    padding-left: 70px;
+    h1{
+        margin-bottom: 30px;
+        
+    }
+    .total-item{
+        word-spacing: 215px;
+        margin-bottom: 30px;
+    }
+    .total-price{
+        word-spacing: 215px;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 30px;
+    }
+    
+    .buy{
+        margin-top: 20px;
+        padding: 10px 160px;
+        background: black;
+        color: white;
+        border-radius: 30px;
+        cursor: pointer;
+      
+    }
+
+}
+.btn-back{
+    margin-top: 20px;
+    padding: 10px 160px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
